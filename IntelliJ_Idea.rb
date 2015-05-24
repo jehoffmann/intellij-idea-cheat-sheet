@@ -257,6 +257,47 @@ cheatsheet do
   end
 
   category do
+    id 'Debugging'
+
+    entry do
+      command 'F8'
+      name 'Step over'
+    end
+    entry do
+      command 'F7'
+      name 'Step into'
+    end
+    entry do
+      command 'SHIFT+F7'
+      name 'Smart step into'
+    end
+    entry do
+      command 'SHIFT+F8'
+      name 'Step out'
+    end
+    entry do
+      command 'ALT+F9'
+      name 'Run to cursor'
+    end
+    entry do
+      command 'ALT+F8'
+      name 'Evaluate expression'
+    end
+    entry do
+      command 'CMD+ALT+R'
+      name 'Resume program'
+    end
+    entry do
+      command 'CMD+F8'
+      name 'Toggle Breakpoint'
+    end
+    entry do
+      command 'CMD+SHIFT+F8'
+      name 'View breakpoints'
+    end
+  end
+
+  category do
     id 'Refactoring'
 
     entry do

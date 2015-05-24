@@ -9,9 +9,9 @@
 	<key>DashDocSetFamily</key>
 	<string>cheatsheet</string>
 	<key>DashDocSetKeyword</key>
-	<string>intellj</string>
+	<string>idea</string>
 	<key>DashDocSetPluginKeyword</key>
-	<string>intellj</string>
+	<string>idea</string>
 	<key>DocSetPlatformFamily</key>
 	<string>cheatsheet</string>
 	<key>dashIndexFilePath</key>
