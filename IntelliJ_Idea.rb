@@ -298,6 +298,151 @@ cheatsheet do
   end
 
   category do
+    id 'Navigation'
+
+    entry do
+      command 'CMD+O'
+      name 'Go to class'
+    end
+    entry do
+      command 'CMD+SHIFT+O'
+      name 'Go to file'
+    end
+    entry do
+      command 'CMD+ALT+O'
+      name 'Go to symbol'
+    end
+    entry do
+      command 'CTRL+Arrow left'
+      name 'Go to previous editor tab'
+    end
+    entry do
+      command 'CTRL+Arrow right'
+      name 'Go to next editor tab'
+    end
+    entry do
+      command 'F12'
+      name 'Go back to previous tool window'
+    end
+    entry do
+      command 'CMD+SHIFT+F4'
+      name 'Close active run/messages/find/... tab'
+    end
+    entry do
+      command 'CMD+L'
+      name 'Go to line'
+    end
+    entry do
+      command 'CMD+E'
+      name 'Recent files popup'
+    end
+    entry do
+      command 'CMD+ALT+Arrow Left'
+      name 'Navigate back'
+    end
+    entry do
+      command 'CMD+ALT+Arrow Right'
+      name 'Navigate forward'
+    end
+    entry do
+      command 'CMD+SHIFT+BACKSPACE'
+      name 'Navigate to last edit location'
+    end
+    entry do
+      command 'ALT+F1'
+      name 'Select current file or symbol in any view'
+    end
+    entry do
+      command 'CMD+B or CMD+Click'
+      name 'Go to declaration'
+    end
+    entry do
+      command 'CMD+ALT+B'
+      name 'Go to implementation(s)'
+    end
+    entry do
+      command 'ALT+SPACE, CMD+Y'
+      name 'Open quick definition lookup'
+    end
+    entry do
+      command 'CTRL+SHIFT+B'
+      name 'Go to type declaration'
+    end
+    entry do
+      command 'CMD+U'
+      name 'Go to super-method/super-class'
+    end
+    entry do
+      command 'CTRL+Arrow-Up'
+      name 'Go to previous method'
+    end
+    entry do
+      command 'CTRL+Arrow-Down'
+      name 'Go to next method'
+    end
+    entry do
+      command 'CMD+]'
+      name 'Move code to block end'
+    end
+    entry do
+      command 'CMD+['
+      name 'Move code to block start'
+    end
+    entry do
+      command 'CMD+F12'
+      name 'File structure popup'
+    end
+    entry do
+      command 'CTRL+H'
+      name 'Type hierarchy'
+    end
+    entry do
+      command 'CMD+SHIFT+H'
+      name 'Method hierarchy'
+    end
+    entry do
+      command 'CTRL+ALT+H'
+      name 'Call hierarchy'
+    end
+    entry do
+      command 'F2'
+      name 'Next highlighted error'
+    end
+    entry do
+      command 'SHIFT+F2'
+      name 'Previous highlighted error'
+    end
+    entry do
+      command 'F4'
+      name 'Edit source'
+    end
+    entry do
+      command 'CMD+Arrow-Down'
+      name 'View source'
+    end
+    entry do
+      command 'ALT+HOME'
+      name 'Show navigation bar'
+    end
+    entry do
+      command 'F3'
+      name 'Toggle bookmark'
+    end
+    entry do
+      command 'ALT+F3'
+      name 'Toggle bookmark with mnemonic'
+    end
+    entry do
+      command 'CTRL+0 ... CTRL+9'
+      name 'Go to numbered bookmark'
+    end
+    entry do
+      command 'CMD+F3'
+      name 'Show bookmarks'
+    end
+  end
+
+  category do
     id 'Refactoring'
 
     entry do
