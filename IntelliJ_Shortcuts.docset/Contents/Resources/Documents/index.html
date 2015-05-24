@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>IntelliJ Idea</title>
+    <link href='style.css' rel='stylesheet'>
+    <link href='//dash_ref/Category/Editing/1'>
+    <link href='//dash_ref_Editing/Entry/Basic code completion/0'>
+    <link href='//dash_ref_Editing/Entry/Smart code completion/0'>
+    <link href='//dash_ref_Editing/Entry/Complete statement/0'>
+    <link href='//dash_ref_Editing/Entry/Parameter info/0'>
+    <link href='//dash_ref_Editing/Entry/Quick documentation lookup/0'>
+    <link href='//dash_ref_Editing/Entry/Brief info/0'>
+    <link href='//dash_ref_Editing/Entry/Show descriptions of error or warning at caret/0'>
+    <link href='//dash_ref_Editing/Entry/Generate code... (Getters, Setters, Constructors, hashCode%2Fequals, toString)/0'>
+    <link href='//dash_ref_Editing/Entry/Override methods/0'>
+    <link href='//dash_ref_Editing/Entry/Implement methods/0'>
+    <link href='//dash_ref_Editing/Entry/Surround with... (if..else, try..catch, for, synchronized, etc.)/0'>
+    <link href='//dash_ref_Editing/Entry/Comment%2Funcomment with line comment/0'>
+    <link href='//dash_ref_Editing/Entry/Comment%2Funcomment with block comment/0'>
+    <link href='//dash_ref_Editing/Entry/Select successively increasing code blocks/0'>
+    <link href='//dash_ref_Editing/Entry/Decrease current selection to previous state/0'>
+    <link href='//dash_ref_Editing/Entry/Context info/0'>
+    <link href='//dash_ref_Editing/Entry/Show intention actions and quick fixes/0'>
+    <link href='//dash_ref_Editing/Entry/Reformat code/0'>
+    <link href='//dash_ref_Editing/Entry/Optimize imports/0'>
+    <link href='//dash_ref_Editing/Entry/Auto-indent line(s)/0'>
+    <link href='//dash_ref_Editing/Entry/indent%2Funindent selected lines/0'>
+    <link href='//dash_ref_Editing/Entry/Cut current line or selected block to clipboard/0'>
+    <link href='//dash_ref_Editing/Entry/Copy current line or selected block to clipboard/0'>
+    <link href='//dash_ref_Editing/Entry/Paste from clipboard/0'>
+    <link href='//dash_ref_Editing/Entry/Paste from recent buffer/0'>
+    <link href='//dash_ref_Editing/Entry/Duplicate current line or selected block/0'>
+    <link href='//dash_ref_Editing/Entry/Delete line at caret/0'>
+    <link href='//dash_ref_Editing/Entry/Smart line join/0'>
+    <link href='//dash_ref_Editing/Entry/Smart line split/0'>
+    <link href='//dash_ref_Editing/Entry/Start new line/0'>
+    <link href='//dash_ref_Editing/Entry/Toggle case for word at caret or selected block/0'>
+    <link href='//dash_ref_Editing/Entry/Select till code block end%2Fstart/0'>
+    <link href='//dash_ref_Editing/Entry/Delete to word end/0'>
+    <link href='//dash_ref_Editing/Entry/Delete to word start/0'>
+    <link href='//dash_ref_Editing/Entry/Expand%2Fcollapse code block/0'>
+    <link href='//dash_ref_Editing/Entry/Expand all/0'>
+    <link href='//dash_ref_Editing/Entry/Collapse all/0'>
+    <link href='//dash_ref_Editing/Entry/Clse active editor tab/0'>
+    <link href='//dash_ref/Category/Search%2FReplace/1'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Search everywhere/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Find/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Find next/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Find previous/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Replace/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Find in path/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Replace in path/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Search structurally/0'>
+    <link href='//dash_ref_Search%2FReplace/Entry/Replace structurally/0'>
+    <link href='//dash_ref/Category/Usage search/1'>
+    <link href='//dash_ref_Usage search/Entry/Find usages/0'>
+    <link href='//dash_ref_Usage search/Entry/Find usages in file/0'>
+    <link href='//dash_ref_Usage search/Entry/Highlight usages in file/0'>
+    <link href='//dash_ref_Usage search/Entry/Show usages/0'>
+    <link href='//dash_ref/Category/Compile and Run/1'>
+    <link href='//dash_ref_Compile and Run/Entry/Make project/0'>
+    <link href='//dash_ref_Compile and Run/Entry/Compile selected file, package or module/0'>
+    <link href='//dash_ref_Compile and Run/Entry/Select configuration and run/0'>
+    <link href='//dash_ref_Compile and Run/Entry/Select configuraton and debug/0'>
+    <link href='//dash_ref_Compile and Run/Entry/Run/0'>
+    <link href='//dash_ref_Compile and Run/Entry/Debug/0'>
+    <link href='//dash_ref_Compile and Run/Entry/Run context configuration from editor/0'>
+    <link href='//dash_ref/Category/Refactoring/1'>
+    <link href='//dash_ref_Refactoring/Entry/Copy/0'>
+    <link href='//dash_ref_Refactoring/Entry/Move/0'>
+    <link href='//dash_ref_Refactoring/Entry/Safe delete/0'>
+    <link href='//dash_ref_Refactoring/Entry/Rename/0'>
+    <link href='//dash_ref_Refactoring/Entry/Change Signature/0'>
+    <link href='//dash_ref_Refactoring/Entry/Inline/0'>
+    <link href='//dash_ref_Refactoring/Entry/Extract Method/0'>
+    <link href='//dash_ref_Refactoring/Entry/Extract Variable/0'>
+    <link href='//dash_ref_Refactoring/Entry/Extract Field/0'>
+    <link href='//dash_ref_Refactoring/Entry/Extract Constant/0'>
+    <link href='//dash_ref_Refactoring/Entry/Extract Parameter/0'>
+    <link href='//dash_ref/Category/VCS%2FLocal History/1'>
+    <link href='//dash_ref_VCS%2FLocal History/Entry/Commit project to VCS/0'>
+    <link href='//dash_ref_VCS%2FLocal History/Entry/Update project from VCS/0'>
+    <link href='//dash_ref_VCS%2FLocal History/Entry/View recent changes/0'>
+    <link href='//dash_ref_VCS%2FLocal History/Entry/VCS quick popup/0'>
+    <link href='//dash_ref/Category/Live Templates/1'>
+    <link href='//dash_ref_Live Templates/Entry/Surround with Live Template/0'>
+    <link href='//dash_ref_Live Templates/Entry/Insert Live Template/0'>
+    <link href='//dash_ref/Category/General/1'>
+    <link href='//dash_ref_General/Entry/Open corresponding tool window/0'>
+    <link href='//dash_ref_General/Entry/Save all/0'>
+    <link href='//dash_ref_General/Entry/Synchronize/0'>
+    <link href='//dash_ref_General/Entry/Toggle full screen mode/0'>
+    <link href='//dash_ref_General/Entry/Toggle maximizing editor/0'>
+    <link href='//dash_ref_General/Entry/Add to Favorites/0'>
+    <link href='//dash_ref_General/Entry/Inspect current file with current profile/0'>
+    <link href='//dash_ref_General/Entry/Quick switch current scheme/0'>
+    <link href='//dash_ref_General/Entry/Open Settings dialog/0'>
+    <link href='//dash_ref_General/Entry/Open Project Structure dialog/0'>
+    <link href='//dash_ref_General/Entry/Find Action/0'>
+    <link href='//dash_ref_General/Entry/Switch between tabs and tool window/0'>
+  </head>
+  <body>
+    <header>
+      <h1>IntelliJ Idea</h1>
+    </header>
+    <article>
+      <p></p>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Editing/1'>
+          Editing
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_Editing/Entry/Basic code completion/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+SPACE</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Basic code completion</p></div>
+                <div class='notes'><p>The name of any class, method or variable</p></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Smart code completion/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+SHIFT+SPACE</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Smart code completion</p></div>
+                <div class='notes'><p>filters the list of methods and variables by expected type</p></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Complete statement/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+ENTER</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Complete statement</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Parameter info/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+P</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Parameter info</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Quick documentation lookup/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+J</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Quick documentation lookup</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Brief info/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+mouse over code</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Brief info</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Show descriptions of error or warning at caret/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+F1</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Show descriptions of error or warning at caret</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Generate code... (Getters, Setters, Constructors, hashCode%2Fequals, toString)/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+N, CTRL+ENTER, CTRL+N</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Generate code... (Getters, Setters, Constructors, hashCode/equals, toString)</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Override methods/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+O</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Override methods</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Implement methods/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+I</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Implement methods</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Surround with... (if..else, try..catch, for, synchronized, etc.)/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+T</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Surround with... (if..else, try..catch, for, synchronized, etc.)</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Comment%2Funcomment with line comment/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+/</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Comment/uncomment with line comment</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Comment%2Funcomment with block comment/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+/</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Comment/uncomment with block comment</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Select successively increasing code blocks/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+Arrow up</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Select successively increasing code blocks</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Decrease current selection to previous state/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+Arrow down</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Decrease current selection to previous state</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Context info/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+SHIFT+Q</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Context info</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Show intention actions and quick fixes/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+ENTER</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Show intention actions and quick fixes</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Reformat code/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+L</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Reformat code</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Optimize imports/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+ALT+O</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Optimize imports</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Auto-indent line(s)/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+ALT+I</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Auto-indent line(s)</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/indent%2Funindent selected lines/0'>
+              <td class='command'>
+                <p>
+                  <code>TAB, SHIF+TAB</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>indent/unindent selected lines</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Cut current line or selected block to clipboard/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+X</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Cut current line or selected block to clipboard</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Copy current line or selected block to clipboard/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+C</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Copy current line or selected block to clipboard</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Paste from clipboard/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+V</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Paste from clipboard</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Paste from recent buffer/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+V</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Paste from recent buffer</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Duplicate current line or selected block/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+D</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Duplicate current line or selected block</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Delete line at caret/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+Delete</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Delete line at caret</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Smart line join/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+SHIFT+J</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Smart line join</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Smart line split/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ENTER</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Smart line split</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Start new line/0'>
+              <td class='command'>
+                <p>
+                  <code>SHIFT+ENTER</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Start new line</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Toggle case for word at caret or selected block/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+U</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Toggle case for word at caret or selected block</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Select till code block end%2Fstart/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+], CMD+SHIFT+[</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Select till code block end/start</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Delete to word end/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+DELETE</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Delete to word end</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Delete to word start/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+BACKSPACE</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Delete to word start</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Expand%2Fcollapse code block/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD++, CMD+-</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Expand/collapse code block</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Expand all/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT++</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Expand all</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Collapse all/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+-</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Collapse all</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Editing/Entry/Clse active editor tab/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+W</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Clse active editor tab</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Search%2FReplace/1'>
+          Search/Replace
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Search everywhere/0'>
+              <td class='command'>
+                <p>
+                  <code>SHIFT SHIFT</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Search everywhere</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Find/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+F</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Find</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Find next/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+G</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Find next</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Find previous/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+G</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Find previous</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Replace/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+R</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Replace</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Find in path/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+F</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Find in path</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Replace in path/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+R</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Replace in path</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Search structurally/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+S</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Search structurally</p></div>
+                <div class='notes'><p>Ultimate Edition only</p></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Search%2FReplace/Entry/Replace structurally/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+M</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Replace structurally</p></div>
+                <div class='notes'><p>Ultimate Edition only</p></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Usage search/1'>
+          Usage search
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_Usage search/Entry/Find usages/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+F7</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Find usages</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Usage search/Entry/Find usages in file/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+F7</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Find usages in file</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Usage search/Entry/Highlight usages in file/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+F7</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Highlight usages in file</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Usage search/Entry/Show usages/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+F7</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Show usages</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Compile and Run/1'>
+          Compile and Run
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_Compile and Run/Entry/Make project/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+F9</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Make project</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Compile and Run/Entry/Compile selected file, package or module/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+F9</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Compile selected file, package or module</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Compile and Run/Entry/Select configuration and run/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+ALT+R</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Select configuration and run</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Compile and Run/Entry/Select configuraton and debug/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+ALT+D</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Select configuraton and debug</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Compile and Run/Entry/Run/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+R</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Run</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Compile and Run/Entry/Debug/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+D</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Debug</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Compile and Run/Entry/Run context configuration from editor/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+SHIFT+R, CTRL+SHIFT+D</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Run context configuration from editor</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Refactoring/1'>
+          Refactoring
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_Refactoring/Entry/Copy/0'>
+              <td class='command'>
+                <p>
+                  <code>F5</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Copy</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Move/0'>
+              <td class='command'>
+                <p>
+                  <code>F6</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Move</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Safe delete/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+Delete</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Safe delete</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Rename/0'>
+              <td class='command'>
+                <p>
+                  <code>SHIFT+F6</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Rename</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Change Signature/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+F6</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Change Signature</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Inline/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+N</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Inline</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Extract Method/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+M</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Extract Method</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Extract Variable/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+V</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Extract Variable</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Extract Field/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+F</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Extract Field</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Extract Constant/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+C</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Extract Constant</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Refactoring/Entry/Extract Parameter/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+P</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Extract Parameter</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/VCS%2FLocal History/1'>
+          VCS/Local History
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_VCS%2FLocal History/Entry/Commit project to VCS/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+K</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Commit project to VCS</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_VCS%2FLocal History/Entry/Update project from VCS/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+T</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Update project from VCS</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_VCS%2FLocal History/Entry/View recent changes/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+SHIFT+C</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>View recent changes</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_VCS%2FLocal History/Entry/VCS quick popup/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+V</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>VCS quick popup</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/Live Templates/1'>
+          Live Templates
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_Live Templates/Entry/Surround with Live Template/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+J</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Surround with Live Template</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_Live Templates/Entry/Insert Live Template/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+J</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Insert Live Template</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class='category'>
+        <h2 id='//dash_ref/Category/General/1'>
+          General
+        </h2>
+        <div class='scrollable'>
+          <table>
+            <tr id='//dash_ref_General/Entry/Open corresponding tool window/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+0 ... CMD+9</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Open corresponding tool window</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Save all/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+S</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Save all</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Synchronize/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+ALT+Y</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Synchronize</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Toggle full screen mode/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+CMD+F</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Toggle full screen mode</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Toggle maximizing editor/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+SHIFT+F12</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Toggle maximizing editor</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Add to Favorites/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+SHIFT+F</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Add to Favorites</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Inspect current file with current profile/0'>
+              <td class='command'>
+                <p>
+                  <code>ALT+SHIFT+I</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Inspect current file with current profile</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Quick switch current scheme/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+§ or CTRL+`</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Quick switch current scheme</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Open Settings dialog/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+,</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Open Settings dialog</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Open Project Structure dialog/0'>
+              <td class='command'>
+                <p>
+                  <code>CMD+;</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Open Project Structure dialog</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Find Action/0'>
+              <td class='command'>
+                <p>
+                  <code>SHIFT+CMD+A</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Find Action</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+            <tr id='//dash_ref_General/Entry/Switch between tabs and tool window/0'>
+              <td class='command'>
+                <p>
+                  <code>CTRL+TAB</code>
+                </p>
+              </td>
+              <td class='description'>
+                <div class='name'><p>Switch between tabs and tool window</p></div>
+                <div class='notes'></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </article>
+    <footer>
+      You can modify and improve this cheat sheet <a onclick="window.dash.openExternal_(this.href); return false;" href="http://cheat.kapeli.com">here</a>
+    </footer>
+  </body>
+</html>
